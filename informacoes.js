@@ -1,4 +1,4 @@
-const url = 'https://github.com/DarkMalado/grafico/blob/main/disciplina.json'
+const url = 'https://raw.githubusercontent.com/DarkMalado/grafico/refs/heads/main/disciplina.json'
 
 async function vizualizarInformacoes() {
     const res = await fetch(url)
